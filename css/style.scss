@@ -1,0 +1,47 @@
+/******************************************
+
+Titulo: 1.0 del navbar NachoSan
+Autor: Nacho Santos
+Web: http://nachosan.com
+Versión 1.0
+Licencia: http://creativecommons.org/licenses/by-sa/4.0/
+Soporte: igsanmo@gmail.com
+
+RRSS: https://twitter.com/nachosan80es
+
+*******************************************/
+
+
+
+
+/*Encajamos el navegador, quitamos padding y margin*/
+.navbar { 
+    background-color: transparentize($color: #000000, $amount: 0.15);
+    padding: 0%; 
+    /*Enlaces en blanco sin decoración*/  
+    a {
+        color: white;
+        /*Cambiamos el color a rojo*/
+        &:hover{
+            color: red;
+            
+       }
+    }
+}
+/*Los nav-item, les ponemos un borde y creamos la transicion de enlace*/
+.nav-item:hover {
+    margin: 0px;
+    border-bottom: 4px solid red;
+    transition-duration: 0.8s;
+
+}
+/*Inventamos unos separadores*/
+.separator {
+    margin: 10px; 
+    color: transparentize($color: red, $amount: 0.2);
+    /*Creamos transicion si el puntero se queda encima*/
+    &:hover {
+        color: transparentize($color: #ffffff, $amount: 0.10);
+        transition-duration: 1s;
+    }
+}
