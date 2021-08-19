@@ -34,11 +34,13 @@ RRSS: https://twitter.com/nachosan80es
     border-bottom: 4px solid red;
     transition-duration: 0.8s;
 }
+/*Agregamos el focus*/
 .nav-item:focus {
     color:red;
     margin: 0px;
     border-bottom: 4px solid red;
 }
+/*Agregamos los enlaces activos*/
 .active{
     color:red;
     margin: 0px;
