@@ -33,7 +33,17 @@ RRSS: https://twitter.com/nachosan80es
     margin: 0px;
     border-bottom: 4px solid red;
     transition-duration: 0.8s;
-
+}
+.nav-item:focus {
+    color:red;
+    margin: 0px;
+    border-bottom: 4px solid red;
+}
+.active{
+    color:red;
+    margin: 0px;
+    border-bottom: 4px solid red;
+    
 }
 /*Inventamos unos separadores*/
 .separator {
